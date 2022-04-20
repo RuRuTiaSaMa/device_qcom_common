@@ -34,7 +34,6 @@ product/etc/permissions/UimService.xml
 -system_ext/app/atfwd/atfwd.apk
 -system_ext/app/embms/embms.apk
 -system_ext/app/imssettings/imssettings.apk
--system_ext/app/uceShimService/uceShimService.apk
 system_ext/bin/diag_callback_sample_system
 system_ext/bin/diag_dci_sample_system
 system_ext/bin/diag_mdlog_system
@@ -203,8 +202,6 @@ system_ext/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so
 system_ext/lib64/vendor.qti.hardware.embmssl@1.0.so
 system_ext/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so
 system_ext/lib64/vendor.qti.hardware.embmssl@1.1.so
-system_ext/lib64/vendor.qti.hardware.factory@1.0.so
-system_ext/lib64/vendor.qti.hardware.factory@1.1.so
 system_ext/lib64/vendor.qti.hardware.mwqemadapter@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.ims@1.0.so
@@ -263,3 +260,6 @@ system_ext/lib64/vendor.qti.mstatservice@1.0.so
 -system_ext/priv-app/ims/ims.apk
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -system/framework/tcmclient.jar
+
+# uceShimService - from LA.QSSI.12.0.r1-05800-qssi.0
+-system_ext/app/uceShimService/uceShimService.apk|d3a55dbb95418751fc4564964ff18f63b9ff1b3b
